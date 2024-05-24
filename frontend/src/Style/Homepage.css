@@ -1,0 +1,22 @@
+.hero-section{
+    width: 100%;
+}
+.hero-image img{
+    width: 100%;
+}
+.hero-text{
+    text-align: start;
+}
+.hero-text .headline{
+    font-family: "Roboto Slab", serif ;
+}
+
+.hero-text .subheadline{
+    font-family: "Roboto Slab", serif !important;
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero-text .description{
+    letter-spacing: 1px;
+    font-weight: 200;
+}
