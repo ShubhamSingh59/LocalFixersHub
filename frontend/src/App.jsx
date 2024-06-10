@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Userprofile from './Pages/Userprofile';
-import Navbar from './Pages/Navbar';
+import Userprofile from './components/UserProfile/Userprofile';
+import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Homepage from './Pages/Homepage';
-import Register from './Pages/Register';
-import Signup from './Pages/Singup';
+import Homepage from './components/Homepage/Homepage';
+import Register from './components/Register/Register';
+import Login from './components/Login/Login';
 function App() {
   const [count, setCount] = useState(0)
   //const navigate = useNavigate();
@@ -16,7 +16,9 @@ function App() {
       <Routes>
         <Route path='/' element ={<Homepage/>} />
         <Route path='/register' element ={<Register/>} />
-        <Route path='/signup' element ={<Signup/>} />
+        <Route path='/login' element ={<Login/>} />
+        <Route path='/userprofile' element ={<Userprofile/>} />
+        <Route path='/private' element ={<h1>HI there</h1>} />
       </Routes>
     </Router>
     

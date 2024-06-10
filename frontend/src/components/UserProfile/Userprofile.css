@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.profilepage{
+    display: flex;
+    flex-direction: column;
+}
+.bookdetails{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+}

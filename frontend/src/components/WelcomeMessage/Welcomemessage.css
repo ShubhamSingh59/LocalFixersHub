@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 100vh;
+    max-height: 250px;
+    background-image: url(../../assets/welcomebackground.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
